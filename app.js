@@ -12,7 +12,7 @@ const photoController = require("./controllers/photoControllers");
 const pageControllers = require("./controllers/pageControllers");
 
 //Connect DB
-mongoose.connect("mongodb+srv://cgtykrdmn:Ck04062214@cluster0.cb7q4q3.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://<yourUsername>:<yourPassword>@cluster0.cb7q4q3.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then( () => {
